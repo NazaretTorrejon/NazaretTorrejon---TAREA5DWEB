@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+table {
+    width: 50%;   
+}
+
+table td, th {
+    border: 1px solid rgb(37, 175, 106);
+    padding: 8px;
+}
+
+table tr th a {
+    text-decoration: none;
+    color: rgb(130, 155, 170);
+}
+
+tr:nth-child(even) {
+    background-color: #a17272;
+}
+
+tr:hover {
+    background-color: rgb(181, 189, 135);
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #e0aed6;
+    color: white;
+}
+
+table td:nth-child(5){
+    text-align: left;
+    padding-right: 5%;
+}
+
+table img {
+    height: 60px;
+    width: auto;
+}
+
+form {
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    max-width: 90%;
+}
+
+form label {
+    display: inline-block;
+    width: 70px;
+    margin: 0px 10px;
+}
+
+form input, select {
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 5px;
+    border: 1px solid rgb(201, 179, 118);
+    background: #b57bc3;
+}
+
+button {
+    padding: 10px;
+    background: rgb(15, 109, 197);
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(212, 164, 164);
+    border-left: none;
+    cursor: pointer;
+    align-items: flex-end;
+    border-radius: 10PX;
+    margin: 0px 20px;
+}
+
+.boton-editar{
+    background: rgb(24, 223, 180);
+}
+
+.boton-eliminar {
+    background: rgb(228, 231, 52);
+}
