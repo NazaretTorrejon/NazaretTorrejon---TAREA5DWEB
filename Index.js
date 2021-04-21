@@ -5,6 +5,8 @@ let switchDireccion = true;
 
 const buscarProducto = (event) => {
     event.preventDefault();
+
+    
     if (event.target.tagName != 'A' && event.target.tagName != 'BUTTON') return;
 
     const urlAPI = 'https://disenoydesarrolloapi.azurewebsites.net/api/Producto';
