@@ -60,6 +60,7 @@ const eliminarProducto = (event) => {
     llenarTabla();
 }
 
+
 btnBuscar.addEventListener('click', buscarProducto)
 body.addEventListener('click', buscarProducto)
 
