@@ -30,7 +30,6 @@ const buscarProducto = (event) => {
 
 
 
-
 const formatoDinero =(monto) => {
     return monto.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
   }
