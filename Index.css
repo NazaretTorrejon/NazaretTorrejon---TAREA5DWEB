@@ -20,7 +20,7 @@ table tr th a {
 }
 
 tr:nth-child(even) {
-    background-color: #a17272;
+    background-color: #b17979;
 }
 
 tr:hover {
