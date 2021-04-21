@@ -16,7 +16,7 @@ table td, th {
 
 table tr th a {
     text-decoration: none;
-    color: rgb(130, 155, 170);
+    color: rgb(143, 172, 190);
 }
 
 tr:nth-child(even) {
